@@ -1,0 +1,24 @@
+{
+   "name": "miicro",
+   "version": "1.0.0",
+   "main": "lib/index.js",
+   "types": "lib/index.d.ts",
+   "repository": "git@github.com:ubermanio/miicro.git",
+   "author": "Loïc Nestler <loic.nestler@gmail.com>",
+   "license": "MIT",
+   "scripts": {
+      "clean": "rimraf lib/",
+      "build": "tsc",
+      "test": "ava"
+   },
+   "devDependencies": {
+      "@types/ms": "^0.7.31",
+      "ava": "^3.15.0",
+      "rimraf": "^3.0.2",
+      "typescript": "^4.1.5"
+   },
+   "dependencies": {
+      "axios": "^0.21.1",
+      "ms": "^2.1.3"
+   }
+}
